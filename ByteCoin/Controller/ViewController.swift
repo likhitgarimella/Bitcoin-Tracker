@@ -10,6 +10,11 @@ import UIKit
 
 class ViewController: UIViewController {
     
+    /// Outlets
+    @IBOutlet weak var bitcoinLabel: UILabel!
+    @IBOutlet weak var currencyLabel: UILabel!
+    @IBOutlet weak var currencyPicker: UIPickerView!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         
@@ -17,4 +22,4 @@ class ViewController: UIViewController {
         
     }
     
-}   // #21
+}   // #26
